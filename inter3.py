@@ -4,8 +4,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your_secret_key'
-app.config['MONGO_URI'] = ''  
+app.config['SECRET_KEY'] = '19991208'
+app.config['MONGO_URI'] = 'mongodb+srv://Basant:<19991208>@cluster0.xin6utz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'  
 
 mongo = PyMongo(app)
 
